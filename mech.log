@@ -1,0 +1,833 @@
+# Logfile created on Wed Aug 10 03:51:09 -0400 2011 by logger.rb/22285
+I, [2011-08-10T03:51:09.741743 #22862]  INFO -- : Net::HTTP::Get: /course_evaluation_reports/fas/list
+D, [2011-08-10T03:51:09.741795 #22862] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-10T03:51:09.741829 #22862] DEBUG -- : request-header: accept => */*
+D, [2011-08-10T03:51:09.741861 #22862] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-10T03:51:09.741892 #22862] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-10T03:51:09.741923 #22862] DEBUG -- : request-header: host => webapps.fas.harvard.edu
+D, [2011-08-10T03:51:09.741953 #22862] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-10T03:51:10.494851 #22862]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-10T03:51:10.494972 #22862] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-10T03:51:10.495009 #22862] DEBUG -- : response-header: x-cocoon-version => 2.1.7
+D, [2011-08-10T03:51:10.495041 #22862] DEBUG -- : response-header: date => Wed, 10 Aug 2011 07:51:10 GMT
+D, [2011-08-10T03:51:10.495073 #22862] DEBUG -- : response-header: server => Apache-Coyote/1.1
+D, [2011-08-10T03:51:10.495105 #22862] DEBUG -- : response-header: content-length => 0
+D, [2011-08-10T03:51:10.495138 #22862] DEBUG -- : response-header: set-cookie => JSESSIONID=CDF3A7AEE37FCF5256654564E7CAE6E4; Path=/; Secure
+D, [2011-08-10T03:51:10.495242 #22862] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-10T03:51:10.495476 #22862] DEBUG -- : saved cookie: JSESSIONID=CDF3A7AEE37FCF5256654564E7CAE6E4
+I, [2011-08-10T03:51:10.495573 #22862]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/default.asp?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+I, [2011-08-10T03:51:10.495913 #22862]  INFO -- : Net::HTTP::Get: /pin/default.asp?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-10T03:51:10.495961 #22862] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-10T03:51:10.495998 #22862] DEBUG -- : request-header: accept => */*
+D, [2011-08-10T03:51:10.496033 #22862] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-10T03:51:10.496069 #22862] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-10T03:51:10.496113 #22862] DEBUG -- : request-header: referer => https://webapps.fas.harvard.edu/course_evaluation_reports/fas/list
+D, [2011-08-10T03:51:10.496147 #22862] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-10T03:51:10.496180 #22862] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-10T03:51:10.982135 #22862]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-10T03:51:10.982259 #22862] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-10T03:51:10.982314 #22862] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-10T03:51:10.982367 #22862] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-10T03:51:10.982420 #22862] DEBUG -- : response-header: server => Apache
+D, [2011-08-10T03:51:10.982479 #22862] DEBUG -- : response-header: date => Wed, 10 Aug 2011 07:51:10 GMT
+D, [2011-08-10T03:51:10.982534 #22862] DEBUG -- : response-header: content-length => 416
+D, [2011-08-10T03:51:10.982583 #22862] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2011-08-10T03:51:10.982712 #22862] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-10T03:51:10.983185 #22862] DEBUG -- : Read 416 bytes (416 total)
+I, [2011-08-10T03:51:10.983614 #22862]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+I, [2011-08-10T03:51:10.983979 #22862]  INFO -- : Net::HTTP::Get: /pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-10T03:51:10.984030 #22862] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-10T03:51:10.984066 #22862] DEBUG -- : request-header: accept => */*
+D, [2011-08-10T03:51:10.984101 #22862] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-10T03:51:10.984136 #22862] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-10T03:51:10.984184 #22862] DEBUG -- : request-header: referer => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-10T03:51:10.984221 #22862] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-10T03:51:10.984256 #22862] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-10T03:51:11.470178 #22862]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-10T03:51:11.470282 #22862] DEBUG -- : response-header: content-type => text/html
+D, [2011-08-10T03:51:11.470319 #22862] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-10T03:51:11.470352 #22862] DEBUG -- : response-header: server => Apache
+D, [2011-08-10T03:51:11.470384 #22862] DEBUG -- : response-header: date => Wed, 10 Aug 2011 07:51:11 GMT
+D, [2011-08-10T03:51:11.470416 #22862] DEBUG -- : response-header: content-length => 6949
+D, [2011-08-10T03:51:11.470457 #22862] DEBUG -- : response-header: set-cookie => Harvard-University-Application-Parameter-FAS_CS_COURSE_EVAL_REPORTS-0=wF3MaZWUFueqHE1pjyYUhRRcUiWIbcrWfRO4gKaMkr3GRioXwEixRzylpLrQ4nB8o/lU/3N4r1/sicre3ZkNHA==; domain=.harvard.edu; path=/pin, Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreUcx2SXygDWa/MwFxosAmHsy/4aYYhRSrZfnDwzmuHq2; domain=.harvard.edu; path=/pin, JSESSIONID=J6tFTC4Pkv2KqY7TH1vbhpGhxvjLRl2S39r5mt922wVhQyfsGLgv!-2041248388; path=/
+D, [2011-08-10T03:51:11.470493 #22862] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2011-08-10T03:51:11.470589 #22862] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-10T03:51:11.471800 #22862] DEBUG -- : Read 4096 bytes (4096 total)
+D, [2011-08-10T03:51:11.473240 #22862] DEBUG -- : Read 2853 bytes (6949 total)
+D, [2011-08-10T03:51:11.474300 #22862] DEBUG -- : saved cookie: Harvard-University-Application-Parameter-FAS_CS_COURSE_EVAL_REPORTS-0=wF3MaZWUFueqHE1pjyYUhRRcUiWIbcrWfRO4gKaMkr3GRioXwEixRzylpLrQ4nB8o/lU/3N4r1/sicre3ZkNHA==
+D, [2011-08-10T03:51:11.474442 #22862] DEBUG -- : saved cookie: Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreUcx2SXygDWa/MwFxosAmHsy/4aYYhRSrZfnDwzmuHq2
+D, [2011-08-10T03:51:11.474530 #22862] DEBUG -- : saved cookie: JSESSIONID=J6tFTC4Pkv2KqY7TH1vbhpGhxvjLRl2S39r5mt922wVhQyfsGLgv!-2041248388
+I, [2011-08-10T03:51:11.476541 #22862]  INFO -- : form encoding: ISO-8859-1
+D, [2011-08-10T03:51:11.476791 #22862] DEBUG -- : query: "__authen_application=FAS_CS_COURSE_EVAL_REPORTS&__authen_login_type=PIN&__authen_id=80697953&__authen_password=Hb5udd%2Byk"
+I, [2011-08-10T03:51:11.477462 #22862]  INFO -- : Net::HTTP::Post: /pin/submit-login
+D, [2011-08-10T03:51:11.477515 #22862] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-10T03:51:11.477551 #22862] DEBUG -- : request-header: accept => */*
+D, [2011-08-10T03:51:11.477583 #22862] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2011-08-10T03:51:11.477624 #22862] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-10T03:51:11.477664 #22862] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-10T03:51:11.477745 #22862] DEBUG -- : request-header: content-length => 122
+D, [2011-08-10T03:51:11.477821 #22862] DEBUG -- : request-header: referer => https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-10T03:51:11.477884 #22862] DEBUG -- : request-header: cookie => JSESSIONID=J6tFTC4Pkv2KqY7TH1vbhpGhxvjLRl2S39r5mt922wVhQyfsGLgv!-2041248388
+D, [2011-08-10T03:51:11.477943 #22862] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-10T03:51:11.478000 #22862] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-10T03:51:11.647659 #22862]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-10T03:51:11.647779 #22862] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS
+D, [2011-08-10T03:51:11.647822 #22862] DEBUG -- : response-header: content-type => text/html
+D, [2011-08-10T03:51:11.647855 #22862] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-10T03:51:11.647887 #22862] DEBUG -- : response-header: server => Apache
+D, [2011-08-10T03:51:11.647918 #22862] DEBUG -- : response-header: date => Wed, 10 Aug 2011 07:51:11 GMT
+D, [2011-08-10T03:51:11.647955 #22862] DEBUG -- : response-header: set-cookie => Harvard-University-PIN-Message=zPTFeibGqTf16yUyMtlnzf9Jk8tCmGk07pa+xrbK3RbrEE73LJMOGbAUMM1B1eF4vBoXf3wFkacqfljAsgkM0B6hnzW/k4OLHzYKVxeoyEA=; domain=.harvard.edu; path=/pin
+D, [2011-08-10T03:51:11.647989 #22862] DEBUG -- : response-header: keep-alive => timeout=15, max=98
+D, [2011-08-10T03:51:11.648021 #22862] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2011-08-10T03:51:11.648323 #22862] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-10T03:51:11.648485 #22862] DEBUG -- : Read 381 bytes (381 total)
+D, [2011-08-10T03:51:11.649215 #22862] DEBUG -- : saved cookie: Harvard-University-PIN-Message=zPTFeibGqTf16yUyMtlnzf9Jk8tCmGk07pa+xrbK3RbrEE73LJMOGbAUMM1B1eF4vBoXf3wFkacqfljAsgkM0B6hnzW/k4OLHzYKVxeoyEA=
+I, [2011-08-10T03:51:11.649308 #22862]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS
+I, [2011-08-10T03:51:11.649647 #22862]  INFO -- : Net::HTTP::Get: /pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS
+D, [2011-08-10T03:51:11.649690 #22862] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-10T03:51:11.649723 #22862] DEBUG -- : request-header: accept => */*
+D, [2011-08-10T03:51:11.649756 #22862] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-10T03:51:11.649788 #22862] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-10T03:51:11.649827 #22862] DEBUG -- : request-header: referer => https://www.pin1.harvard.edu/pin/submit-login
+D, [2011-08-10T03:51:11.649860 #22862] DEBUG -- : request-header: cookie => JSESSIONID=J6tFTC4Pkv2KqY7TH1vbhpGhxvjLRl2S39r5mt922wVhQyfsGLgv!-2041248388
+D, [2011-08-10T03:51:11.649892 #22862] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-10T03:51:11.649924 #22862] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-10T03:51:12.068978 #22862]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-10T03:51:12.069098 #22862] DEBUG -- : response-header: content-type => text/html
+D, [2011-08-10T03:51:12.069136 #22862] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-10T03:51:12.069172 #22862] DEBUG -- : response-header: server => Apache
+D, [2011-08-10T03:51:12.069206 #22862] DEBUG -- : response-header: date => Wed, 10 Aug 2011 07:51:11 GMT
+D, [2011-08-10T03:51:12.069241 #22862] DEBUG -- : response-header: content-length => 6949
+D, [2011-08-10T03:51:12.069290 #22862] DEBUG -- : response-header: set-cookie => Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FrecGgjVhwTI8HNQHjkIeAusd58zOWHE14xYczpR3frhqv; domain=.harvard.edu; path=/pin
+D, [2011-08-10T03:51:12.069386 #22862] DEBUG -- : response-header: keep-alive => timeout=15, max=97
+D, [2011-08-10T03:51:12.069515 #22862] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-10T03:51:12.072095 #22862] DEBUG -- : Read 4096 bytes (4096 total)
+D, [2011-08-10T03:51:12.073328 #22862] DEBUG -- : Read 2853 bytes (6949 total)
+D, [2011-08-10T03:51:12.074433 #22862] DEBUG -- : saved cookie: Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FrecGgjVhwTI8HNQHjkIeAusd58zOWHE14xYczpR3frhqv
+I, [2011-08-17T19:03:08.767645 #42033]  INFO -- : Net::HTTP::Get: /
+D, [2011-08-17T19:03:08.832789 #42033] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:03:08.832885 #42033] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:03:08.832919 #42033] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:03:08.832951 #42033] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:03:08.832982 #42033] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:03:08.833013 #42033] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:03:10.307934 #42033]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:03:10.308051 #42033] DEBUG -- : response-header: location => http://my.harvard.edu/welcome.html
+D, [2011-08-17T19:03:10.308090 #42033] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:03:10.308126 #42033] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:03:10.308159 #42033] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:03:10.308194 #42033] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:03:10 GMT
+D, [2011-08-17T19:03:10.308229 #42033] DEBUG -- : response-header: content-length => 191
+D, [2011-08-17T19:03:10.308263 #42033] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:03:10.308298 #42033] DEBUG -- : response-header: set-cookie => mhBack=0; path=/; domain=.my.harvard.edu; expires=Thu, 22-Aug-2030 09:42:10 GMT
+D, [2011-08-17T19:03:10.308333 #42033] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:03:10.308370 #42033] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:03:10.308471 #42033] DEBUG -- : Read 191 bytes (191 total)
+D, [2011-08-17T19:03:10.308575 #42033] DEBUG -- : gzip body
+D, [2011-08-17T19:03:10.309273 #42033] DEBUG -- : saved cookie: mhBack=0
+I, [2011-08-17T19:03:10.309365 #42033]  INFO -- : follow redirect to: http://my.harvard.edu/welcome.html
+I, [2011-08-17T19:03:10.309892 #42033]  INFO -- : Net::HTTP::Get: /welcome.html
+D, [2011-08-17T19:03:10.309936 #42033] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:03:10.309970 #42033] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:03:10.310003 #42033] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:03:10.310036 #42033] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:03:10.310068 #42033] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:03:10.310100 #42033] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:03:10.511280 #42033]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:03:10.511424 #42033] DEBUG -- : response-header: etag => "28a28c-54a-4aa3e2bd646c0"
+D, [2011-08-17T19:03:10.511465 #42033] DEBUG -- : response-header: last-modified => Thu, 11 Aug 2011 17:31:47 GMT
+D, [2011-08-17T19:03:10.511499 #42033] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2011-08-17T19:03:10.511533 #42033] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:03:10.511567 #42033] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:03:10.511602 #42033] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:03:10 GMT
+D, [2011-08-17T19:03:10.511635 #42033] DEBUG -- : response-header: content-length => 785
+D, [2011-08-17T19:03:10.511696 #42033] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:03:10.511732 #42033] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:03:10.511767 #42033] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:03:10.511801 #42033] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:03:10.511835 #42033] DEBUG -- : response-header: accept-ranges => bytes
+D, [2011-08-17T19:03:10.511924 #42033] DEBUG -- : Read 785 bytes (785 total)
+D, [2011-08-17T19:03:10.512048 #42033] DEBUG -- : gzip body
+I, [2011-08-17T19:03:38.091188 #42173]  INFO -- : Net::HTTP::Get: /
+D, [2011-08-17T19:03:38.091275 #42173] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:03:38.091311 #42173] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:03:38.091343 #42173] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:03:38.091375 #42173] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:03:38.091405 #42173] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:03:38.091435 #42173] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:03:38.768321 #42173]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:03:38.768442 #42173] DEBUG -- : response-header: location => http://my.harvard.edu/welcome.html
+D, [2011-08-17T19:03:38.768481 #42173] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:03:38.768517 #42173] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:03:38.768552 #42173] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:03:38.768586 #42173] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:03:38 GMT
+D, [2011-08-17T19:03:38.768620 #42173] DEBUG -- : response-header: content-length => 191
+D, [2011-08-17T19:03:38.768654 #42173] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:03:38.768688 #42173] DEBUG -- : response-header: set-cookie => mhBack=0; path=/; domain=.my.harvard.edu; expires=Thu, 22-Aug-2030 09:42:38 GMT
+D, [2011-08-17T19:03:38.768740 #42173] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:03:38.768802 #42173] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:03:38.768940 #42173] DEBUG -- : Read 191 bytes (191 total)
+D, [2011-08-17T19:03:38.769047 #42173] DEBUG -- : gzip body
+D, [2011-08-17T19:03:38.769767 #42173] DEBUG -- : saved cookie: mhBack=0
+I, [2011-08-17T19:03:38.769858 #42173]  INFO -- : follow redirect to: http://my.harvard.edu/welcome.html
+I, [2011-08-17T19:03:38.770390 #42173]  INFO -- : Net::HTTP::Get: /welcome.html
+D, [2011-08-17T19:03:38.770432 #42173] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:03:38.770466 #42173] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:03:38.770499 #42173] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:03:38.770531 #42173] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:03:38.770563 #42173] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:03:38.770594 #42173] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:03:39.002710 #42173]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:03:39.002894 #42173] DEBUG -- : response-header: etag => "28a28c-54a-4aa3e2bd646c0"
+D, [2011-08-17T19:03:39.002943 #42173] DEBUG -- : response-header: last-modified => Thu, 11 Aug 2011 17:31:47 GMT
+D, [2011-08-17T19:03:39.002979 #42173] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2011-08-17T19:03:39.003013 #42173] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:03:39.003047 #42173] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:03:39.003115 #42173] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:03:38 GMT
+D, [2011-08-17T19:03:39.003154 #42173] DEBUG -- : response-header: content-length => 785
+D, [2011-08-17T19:03:39.003188 #42173] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:03:39.003222 #42173] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:03:39.003256 #42173] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:03:39.003289 #42173] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:03:39.003329 #42173] DEBUG -- : response-header: accept-ranges => bytes
+D, [2011-08-17T19:03:39.003442 #42173] DEBUG -- : Read 785 bytes (785 total)
+D, [2011-08-17T19:03:39.003564 #42173] DEBUG -- : gzip body
+I, [2011-08-17T19:04:18.396301 #42359]  INFO -- : Net::HTTP::Get: /
+D, [2011-08-17T19:04:18.396395 #42359] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:18.396434 #42359] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:18.396467 #42359] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:18.396501 #42359] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:18.396534 #42359] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:04:18.396566 #42359] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:18.905500 #42359]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:04:18.905622 #42359] DEBUG -- : response-header: location => http://my.harvard.edu/welcome.html
+D, [2011-08-17T19:04:18.905662 #42359] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:04:18.905695 #42359] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:18.905727 #42359] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:18.905758 #42359] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:18 GMT
+D, [2011-08-17T19:04:18.905789 #42359] DEBUG -- : response-header: content-length => 191
+D, [2011-08-17T19:04:18.905832 #42359] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:04:18.905869 #42359] DEBUG -- : response-header: set-cookie => mhBack=0; path=/; domain=.my.harvard.edu; expires=Thu, 22-Aug-2030 09:43:18 GMT
+D, [2011-08-17T19:04:18.905942 #42359] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:04:18.906005 #42359] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:04:18.906116 #42359] DEBUG -- : Read 191 bytes (191 total)
+D, [2011-08-17T19:04:18.906226 #42359] DEBUG -- : gzip body
+D, [2011-08-17T19:04:18.906946 #42359] DEBUG -- : saved cookie: mhBack=0
+I, [2011-08-17T19:04:18.907041 #42359]  INFO -- : follow redirect to: http://my.harvard.edu/welcome.html
+I, [2011-08-17T19:04:18.907593 #42359]  INFO -- : Net::HTTP::Get: /welcome.html
+D, [2011-08-17T19:04:18.907650 #42359] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:18.907687 #42359] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:18.907722 #42359] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:18.907756 #42359] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:18.907790 #42359] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:04:18.907823 #42359] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:19.109529 #42359]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:04:19.109646 #42359] DEBUG -- : response-header: etag => "28a28c-54a-4aa3e2bd646c0"
+D, [2011-08-17T19:04:19.109687 #42359] DEBUG -- : response-header: last-modified => Thu, 11 Aug 2011 17:31:47 GMT
+D, [2011-08-17T19:04:19.109725 #42359] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2011-08-17T19:04:19.109788 #42359] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:19.109822 #42359] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:19.109854 #42359] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:19 GMT
+D, [2011-08-17T19:04:19.109886 #42359] DEBUG -- : response-header: content-length => 785
+D, [2011-08-17T19:04:19.109917 #42359] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:04:19.109948 #42359] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:04:19.109979 #42359] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:04:19.110010 #42359] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:04:19.110041 #42359] DEBUG -- : response-header: accept-ranges => bytes
+D, [2011-08-17T19:04:19.110126 #42359] DEBUG -- : Read 785 bytes (785 total)
+D, [2011-08-17T19:04:19.110235 #42359] DEBUG -- : gzip body
+I, [2011-08-17T19:04:19.112185 #42359]  INFO -- : Net::HTTP::Get: /myharvard
+D, [2011-08-17T19:04:19.112237 #42359] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:19.112272 #42359] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:19.112303 #42359] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:19.112335 #42359] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:19.112373 #42359] DEBUG -- : request-header: referer => http://my.harvard.edu/welcome.html
+D, [2011-08-17T19:04:19.112406 #42359] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:04:19.112437 #42359] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:19.211795 #42359]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:04:19.211920 #42359] DEBUG -- : response-header: location => http://my.harvard.edu/icb/icb.do?keyword=myharvard
+D, [2011-08-17T19:04:19.211961 #42359] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:04:19.211995 #42359] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:19.212029 #42359] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:19.212064 #42359] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:19 GMT
+D, [2011-08-17T19:04:19.212095 #42359] DEBUG -- : response-header: content-length => 202
+D, [2011-08-17T19:04:19.212125 #42359] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:04:19.212157 #42359] DEBUG -- : response-header: keep-alive => timeout=10, max=99
+D, [2011-08-17T19:04:19.212188 #42359] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:04:19.212275 #42359] DEBUG -- : Read 202 bytes (202 total)
+D, [2011-08-17T19:04:19.212374 #42359] DEBUG -- : gzip body
+I, [2011-08-17T19:04:19.212646 #42359]  INFO -- : follow redirect to: http://my.harvard.edu/icb/icb.do?keyword=myharvard
+I, [2011-08-17T19:04:19.213248 #42359]  INFO -- : Net::HTTP::Get: /icb/icb.do?keyword=myharvard
+D, [2011-08-17T19:04:19.213293 #42359] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:19.213326 #42359] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:19.213358 #42359] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:19.213391 #42359] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:19.213428 #42359] DEBUG -- : request-header: referer => http://my.harvard.edu/myharvard
+D, [2011-08-17T19:04:19.213462 #42359] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:04:19.213493 #42359] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:19.334924 #42359]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:04:19.335041 #42359] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2011-08-17T19:04:19.335114 #42359] DEBUG -- : response-header: location => https://login.icommons.harvard.edu/pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:19.335150 #42359] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2011-08-17T19:04:19.335182 #42359] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:19.335218 #42359] DEBUG -- : response-header: content-type => text/html;charset=utf-8
+D, [2011-08-17T19:04:19.335257 #42359] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:19 GMT
+D, [2011-08-17T19:04:19.335291 #42359] DEBUG -- : response-header: content-length => 311
+D, [2011-08-17T19:04:19.335325 #42359] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:04:19.335358 #42359] DEBUG -- : response-header: set-cookie => JSESSIONID=BH1JTMLT3yzPm5GXxm2NTWQ1191sbcL0pJthGsZnpZd6214yhvHt!-990337522; path=/; HttpOnly, ICB_10.0=; expires=Thu, 01-Jan-1970 01:00:00 GMT; path=/
+D, [2011-08-17T19:04:19.335392 #42359] DEBUG -- : response-header: keep-alive => timeout=10, max=98
+D, [2011-08-17T19:04:19.335425 #42359] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:04:19.335461 #42359] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:04:19.335493 #42359] DEBUG -- : response-header: cache-control => no-cache
+D, [2011-08-17T19:04:19.335523 #42359] DEBUG -- : response-header: pragma => No-cache
+D, [2011-08-17T19:04:19.335608 #42359] DEBUG -- : Read 311 bytes (311 total)
+D, [2011-08-17T19:04:19.335706 #42359] DEBUG -- : gzip body
+D, [2011-08-17T19:04:19.336068 #42359] DEBUG -- : saved cookie: JSESSIONID=BH1JTMLT3yzPm5GXxm2NTWQ1191sbcL0pJthGsZnpZd6214yhvHt!-990337522
+D, [2011-08-17T19:04:19.336449 #42359] DEBUG -- : saved cookie: ICB_10.0=
+I, [2011-08-17T19:04:19.336592 #42359]  INFO -- : follow redirect to: https://login.icommons.harvard.edu/pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+I, [2011-08-17T19:04:19.337660 #42359]  INFO -- : Net::HTTP::Get: /pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:19.337710 #42359] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:19.337745 #42359] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:19.337777 #42359] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:19.337808 #42359] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:19.337847 #42359] DEBUG -- : request-header: referer => http://my.harvard.edu/icb/icb.do?keyword=myharvard
+D, [2011-08-17T19:04:19.337884 #42359] DEBUG -- : request-header: host => login.icommons.harvard.edu
+D, [2011-08-17T19:04:19.337918 #42359] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:19.789113 #42359]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:04:19.789241 #42359] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2011-08-17T19:04:19.789279 #42359] DEBUG -- : response-header: location => https://login.icommons.harvard.edu/pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:19.789312 #42359] DEBUG -- : response-header: content-type => text/plain; charset=UTF-8
+D, [2011-08-17T19:04:19.789344 #42359] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:19.789375 #42359] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:19 GMT
+D, [2011-08-17T19:04:19.789441 #42359] DEBUG -- : response-header: set-cookie => PinProxy_10.0=; expires=Thu, 01-Jan-1970 01:00:00 GMT; path=/
+D, [2011-08-17T19:04:19.789476 #42359] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:04:19.789508 #42359] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:04:19.789539 #42359] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2011-08-17T19:04:19.789642 #42359] DEBUG -- : Read 745 bytes (745 total)
+D, [2011-08-17T19:04:19.790167 #42359] DEBUG -- : saved cookie: PinProxy_10.0=
+I, [2011-08-17T19:04:19.790256 #42359]  INFO -- : follow redirect to: https://login.icommons.harvard.edu/pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+I, [2011-08-17T19:04:19.791159 #42359]  INFO -- : Net::HTTP::Get: /pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:19.791207 #42359] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:19.791242 #42359] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:19.791274 #42359] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:19.791306 #42359] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:19.791350 #42359] DEBUG -- : request-header: referer => https://login.icommons.harvard.edu/pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:19.791384 #42359] DEBUG -- : request-header: host => login.icommons.harvard.edu
+D, [2011-08-17T19:04:19.791417 #42359] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:19.907681 #42359]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:04:19.907796 #42359] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2011-08-17T19:04:19.907833 #42359] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:19.907867 #42359] DEBUG -- : response-header: content-type => text/plain; charset=UTF-8
+D, [2011-08-17T19:04:19.907899 #42359] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:19.907930 #42359] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:19 GMT
+D, [2011-08-17T19:04:19.907962 #42359] DEBUG -- : response-header: set-cookie => PinProxy_10.0=; expires=Thu, 01-Jan-1970 01:00:00 GMT; path=/
+D, [2011-08-17T19:04:19.907994 #42359] DEBUG -- : response-header: keep-alive => timeout=10, max=99
+D, [2011-08-17T19:04:19.908025 #42359] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:04:19.908067 #42359] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2011-08-17T19:04:19.908172 #42359] DEBUG -- : Read 749 bytes (749 total)
+D, [2011-08-17T19:04:19.995526 #42359] DEBUG -- : Read 376 bytes (1125 total)
+D, [2011-08-17T19:04:19.996260 #42359] DEBUG -- : saved cookie: PinProxy_10.0=
+I, [2011-08-17T19:04:19.996389 #42359]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+I, [2011-08-17T19:04:19.997455 #42359]  INFO -- : Net::HTTP::Get: /pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:19.997505 #42359] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:19.997539 #42359] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:19.997572 #42359] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:19.997604 #42359] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:19.997648 #42359] DEBUG -- : request-header: referer => https://login.icommons.harvard.edu/pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:19.997683 #42359] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:04:19.997715 #42359] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:20.926323 #42359]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:04:20.926438 #42359] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/authenticate?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:20.926484 #42359] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:04:20.926519 #42359] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:20.926554 #42359] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:20.926587 #42359] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:20 GMT
+D, [2011-08-17T19:04:20.926621 #42359] DEBUG -- : response-header: content-length => 635
+D, [2011-08-17T19:04:20.926661 #42359] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2011-08-17T19:04:20.926753 #42359] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:04:20.927015 #42359] DEBUG -- : Read 635 bytes (635 total)
+I, [2011-08-17T19:04:20.927382 #42359]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/authenticate?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+I, [2011-08-17T19:04:20.928299 #42359]  INFO -- : Net::HTTP::Get: /pin/authenticate?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:20.928346 #42359] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:20.928382 #42359] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:20.928415 #42359] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:20.928455 #42359] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:20.928498 #42359] DEBUG -- : request-header: referer => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:20.928566 #42359] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:04:20.928603 #42359] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:21.370803 #42359]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:04:21.370924 #42359] DEBUG -- : response-header: content-type => text/html
+D, [2011-08-17T19:04:21.370981 #42359] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:21.371018 #42359] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:21.371052 #42359] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:20 GMT
+D, [2011-08-17T19:04:21.371086 #42359] DEBUG -- : response-header: content-length => 8035
+D, [2011-08-17T19:04:21.371121 #42359] DEBUG -- : response-header: set-cookie => Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-0=2czCS1x2QTvYBU67kKQjZQ==; domain=.harvard.edu; path=/pin, Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-1=wfDkWPv3bNCjqhNdEXQd8ICXZ6DMIil4Nk83PWS7EHKRaW7YJ9ECBmMZcpFoa8Bikt5FrNOukKR1m2ygRANEY2u3cYncdq16nlf4P5ghKt9wArnyhnQRHbCzBoEs9uDaFXUofcGBh1OAjbA7+Pi2H+oPapp4vRdIPgksaULtKkhGVk3Ly/+WtIDN4aN++0Vk+tqb8lkj4U9hHMq2HJuSxl6U6YwrlFl2hdxcWLxwJNIGS/FrDQC26OXDJ0tkJMJ2Tya5N3GfjnadltTw2/CNXJ2ivR2cbP2ex7uhmHVXUln/c4BawGQEBPunET4HMgpL; domain=.harvard.edu; path=/pin, Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreauBy6Y8FVKMMMoatJvfYCuYhHq1BjnyNwCaiRo7xisL; domain=.harvard.edu; path=/pin, JSESSIONID=HQrpTMLVrxYNG1QyPhlNTfzypGHnGVyygrJByMQ2W8K59BcQQQfD!-2041248388; path=/
+D, [2011-08-17T19:04:21.371161 #42359] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2011-08-17T19:04:21.371257 #42359] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:04:21.372275 #42359] DEBUG -- : Read 4096 bytes (4096 total)
+D, [2011-08-17T19:04:21.449099 #42359] DEBUG -- : Read 3939 bytes (8035 total)
+D, [2011-08-17T19:04:21.450092 #42359] DEBUG -- : saved cookie: Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-0=2czCS1x2QTvYBU67kKQjZQ==
+D, [2011-08-17T19:04:21.450220 #42359] DEBUG -- : saved cookie: Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-1=wfDkWPv3bNCjqhNdEXQd8ICXZ6DMIil4Nk83PWS7EHKRaW7YJ9ECBmMZcpFoa8Bikt5FrNOukKR1m2ygRANEY2u3cYncdq16nlf4P5ghKt9wArnyhnQRHbCzBoEs9uDaFXUofcGBh1OAjbA7+Pi2H+oPapp4vRdIPgksaULtKkhGVk3Ly/+WtIDN4aN++0Vk+tqb8lkj4U9hHMq2HJuSxl6U6YwrlFl2hdxcWLxwJNIGS/FrDQC26OXDJ0tkJMJ2Tya5N3GfjnadltTw2/CNXJ2ivR2cbP2ex7uhmHVXUln/c4BawGQEBPunET4HMgpL
+D, [2011-08-17T19:04:21.450316 #42359] DEBUG -- : saved cookie: Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreauBy6Y8FVKMMMoatJvfYCuYhHq1BjnyNwCaiRo7xisL
+D, [2011-08-17T19:04:21.450399 #42359] DEBUG -- : saved cookie: JSESSIONID=HQrpTMLVrxYNG1QyPhlNTfzypGHnGVyygrJByMQ2W8K59BcQQQfD!-2041248388
+I, [2011-08-17T19:04:39.786078 #42453]  INFO -- : Net::HTTP::Get: /
+D, [2011-08-17T19:04:39.786163 #42453] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:39.786199 #42453] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:39.786231 #42453] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:39.786263 #42453] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:39.786294 #42453] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:04:39.786325 #42453] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:40.362457 #42453]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:04:40.362582 #42453] DEBUG -- : response-header: location => http://my.harvard.edu/welcome.html
+D, [2011-08-17T19:04:40.362622 #42453] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:04:40.362691 #42453] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:40.362727 #42453] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:40.362759 #42453] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:40 GMT
+D, [2011-08-17T19:04:40.362791 #42453] DEBUG -- : response-header: content-length => 191
+D, [2011-08-17T19:04:40.362823 #42453] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:04:40.362854 #42453] DEBUG -- : response-header: set-cookie => mhBack=0; path=/; domain=.my.harvard.edu; expires=Thu, 22-Aug-2030 09:43:40 GMT
+D, [2011-08-17T19:04:40.362886 #42453] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:04:40.362918 #42453] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:04:40.363022 #42453] DEBUG -- : Read 191 bytes (191 total)
+D, [2011-08-17T19:04:40.363126 #42453] DEBUG -- : gzip body
+D, [2011-08-17T19:04:40.363815 #42453] DEBUG -- : saved cookie: mhBack=0
+I, [2011-08-17T19:04:40.363911 #42453]  INFO -- : follow redirect to: http://my.harvard.edu/welcome.html
+I, [2011-08-17T19:04:40.364478 #42453]  INFO -- : Net::HTTP::Get: /welcome.html
+D, [2011-08-17T19:04:40.364523 #42453] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:40.364556 #42453] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:40.364588 #42453] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:40.364620 #42453] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:40.364652 #42453] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:04:40.364684 #42453] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:40.569459 #42453]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:04:40.569574 #42453] DEBUG -- : response-header: etag => "28a28c-54a-4aa3e2bd646c0"
+D, [2011-08-17T19:04:40.569616 #42453] DEBUG -- : response-header: last-modified => Thu, 11 Aug 2011 17:31:47 GMT
+D, [2011-08-17T19:04:40.569651 #42453] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2011-08-17T19:04:40.569686 #42453] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:40.569727 #42453] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:40.569762 #42453] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:40 GMT
+D, [2011-08-17T19:04:40.569797 #42453] DEBUG -- : response-header: content-length => 785
+D, [2011-08-17T19:04:40.569831 #42453] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:04:40.569866 #42453] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:04:40.569900 #42453] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:04:40.569948 #42453] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:04:40.569985 #42453] DEBUG -- : response-header: accept-ranges => bytes
+D, [2011-08-17T19:04:40.570082 #42453] DEBUG -- : Read 785 bytes (785 total)
+D, [2011-08-17T19:04:40.570200 #42453] DEBUG -- : gzip body
+I, [2011-08-17T19:04:40.572438 #42453]  INFO -- : Net::HTTP::Get: /myharvard
+D, [2011-08-17T19:04:40.572497 #42453] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:40.572532 #42453] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:40.572564 #42453] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:40.572597 #42453] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:40.572635 #42453] DEBUG -- : request-header: referer => http://my.harvard.edu/welcome.html
+D, [2011-08-17T19:04:40.572674 #42453] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:04:40.572707 #42453] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:40.677488 #42453]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:04:40.677610 #42453] DEBUG -- : response-header: location => http://my.harvard.edu/icb/icb.do?keyword=myharvard
+D, [2011-08-17T19:04:40.677651 #42453] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:04:40.677687 #42453] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:40.677722 #42453] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:40.677758 #42453] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:40 GMT
+D, [2011-08-17T19:04:40.677791 #42453] DEBUG -- : response-header: content-length => 202
+D, [2011-08-17T19:04:40.677823 #42453] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:04:40.677856 #42453] DEBUG -- : response-header: keep-alive => timeout=10, max=99
+D, [2011-08-17T19:04:40.677888 #42453] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:04:40.677976 #42453] DEBUG -- : Read 202 bytes (202 total)
+D, [2011-08-17T19:04:40.678086 #42453] DEBUG -- : gzip body
+I, [2011-08-17T19:04:40.678379 #42453]  INFO -- : follow redirect to: http://my.harvard.edu/icb/icb.do?keyword=myharvard
+I, [2011-08-17T19:04:40.679009 #42453]  INFO -- : Net::HTTP::Get: /icb/icb.do?keyword=myharvard
+D, [2011-08-17T19:04:40.679052 #42453] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:40.679086 #42453] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:40.679119 #42453] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:40.679152 #42453] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:40.679197 #42453] DEBUG -- : request-header: referer => http://my.harvard.edu/myharvard
+D, [2011-08-17T19:04:40.679239 #42453] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:04:40.679274 #42453] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:40.802174 #42453]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:04:40.802292 #42453] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2011-08-17T19:04:40.802333 #42453] DEBUG -- : response-header: location => https://login.icommons.harvard.edu/pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:40.802369 #42453] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2011-08-17T19:04:40.802404 #42453] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:40.802438 #42453] DEBUG -- : response-header: content-type => text/html;charset=utf-8
+D, [2011-08-17T19:04:40.802473 #42453] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:40 GMT
+D, [2011-08-17T19:04:40.802507 #42453] DEBUG -- : response-header: content-length => 311
+D, [2011-08-17T19:04:40.802542 #42453] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:04:40.802577 #42453] DEBUG -- : response-header: set-cookie => JSESSIONID=2vTQTMJLvS1Jz28Lz2G7XjjBQ1w2V2KdkB2kXN7s4VwF1SvHTn3n!-990337522; path=/; HttpOnly, ICB_10.0=; expires=Thu, 01-Jan-1970 01:00:00 GMT; path=/
+D, [2011-08-17T19:04:40.802612 #42453] DEBUG -- : response-header: keep-alive => timeout=10, max=98
+D, [2011-08-17T19:04:40.802646 #42453] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:04:40.802681 #42453] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:04:40.802715 #42453] DEBUG -- : response-header: cache-control => no-cache
+D, [2011-08-17T19:04:40.802749 #42453] DEBUG -- : response-header: pragma => No-cache
+D, [2011-08-17T19:04:40.802840 #42453] DEBUG -- : Read 311 bytes (311 total)
+D, [2011-08-17T19:04:40.802947 #42453] DEBUG -- : gzip body
+D, [2011-08-17T19:04:40.803338 #42453] DEBUG -- : saved cookie: JSESSIONID=2vTQTMJLvS1Jz28Lz2G7XjjBQ1w2V2KdkB2kXN7s4VwF1SvHTn3n!-990337522
+D, [2011-08-17T19:04:40.803750 #42453] DEBUG -- : saved cookie: ICB_10.0=
+I, [2011-08-17T19:04:40.803824 #42453]  INFO -- : follow redirect to: https://login.icommons.harvard.edu/pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+I, [2011-08-17T19:04:40.804818 #42453]  INFO -- : Net::HTTP::Get: /pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:40.804866 #42453] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:40.804903 #42453] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:40.804938 #42453] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:40.804973 #42453] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:40.805016 #42453] DEBUG -- : request-header: referer => http://my.harvard.edu/icb/icb.do?keyword=myharvard
+D, [2011-08-17T19:04:40.805052 #42453] DEBUG -- : request-header: host => login.icommons.harvard.edu
+D, [2011-08-17T19:04:40.805087 #42453] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:41.257442 #42453]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:04:41.257559 #42453] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2011-08-17T19:04:41.257598 #42453] DEBUG -- : response-header: location => https://login.icommons.harvard.edu/pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:41.257635 #42453] DEBUG -- : response-header: content-type => text/plain; charset=UTF-8
+D, [2011-08-17T19:04:41.257669 #42453] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:41.257704 #42453] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:41 GMT
+D, [2011-08-17T19:04:41.257738 #42453] DEBUG -- : response-header: set-cookie => PinProxy_10.0=; expires=Thu, 01-Jan-1970 01:00:00 GMT; path=/
+D, [2011-08-17T19:04:41.257773 #42453] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:04:41.257808 #42453] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:04:41.257844 #42453] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2011-08-17T19:04:41.257947 #42453] DEBUG -- : Read 745 bytes (745 total)
+D, [2011-08-17T19:04:41.258483 #42453] DEBUG -- : saved cookie: PinProxy_10.0=
+I, [2011-08-17T19:04:41.258575 #42453]  INFO -- : follow redirect to: https://login.icommons.harvard.edu/pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+I, [2011-08-17T19:04:41.259567 #42453]  INFO -- : Net::HTTP::Get: /pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:41.259614 #42453] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:41.259648 #42453] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:41.259680 #42453] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:41.259712 #42453] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:41.259754 #42453] DEBUG -- : request-header: referer => https://login.icommons.harvard.edu/pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:41.259819 #42453] DEBUG -- : request-header: host => login.icommons.harvard.edu
+D, [2011-08-17T19:04:41.259855 #42453] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:41.366162 #42453]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:04:41.366275 #42453] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2011-08-17T19:04:41.366314 #42453] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:41.366351 #42453] DEBUG -- : response-header: content-type => text/plain; charset=UTF-8
+D, [2011-08-17T19:04:41.366386 #42453] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:41.366420 #42453] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:41 GMT
+D, [2011-08-17T19:04:41.366454 #42453] DEBUG -- : response-header: set-cookie => PinProxy_10.0=; expires=Thu, 01-Jan-1970 01:00:00 GMT; path=/
+D, [2011-08-17T19:04:41.366489 #42453] DEBUG -- : response-header: keep-alive => timeout=10, max=99
+D, [2011-08-17T19:04:41.366523 #42453] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:04:41.366557 #42453] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2011-08-17T19:04:41.366655 #42453] DEBUG -- : Read 749 bytes (749 total)
+D, [2011-08-17T19:04:41.495604 #42453] DEBUG -- : Read 376 bytes (1125 total)
+D, [2011-08-17T19:04:41.496233 #42453] DEBUG -- : saved cookie: PinProxy_10.0=
+I, [2011-08-17T19:04:41.496322 #42453]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+I, [2011-08-17T19:04:41.497274 #42453]  INFO -- : Net::HTTP::Get: /pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:41.497319 #42453] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:41.497354 #42453] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:41.497387 #42453] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:41.497421 #42453] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:41.497462 #42453] DEBUG -- : request-header: referer => https://login.icommons.harvard.edu/pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:04:41.497496 #42453] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:04:41.497528 #42453] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:42.020313 #42453]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:04:42.020435 #42453] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/authenticate?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:42.020501 #42453] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:04:42.020539 #42453] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:42.020581 #42453] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:42.020615 #42453] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:41 GMT
+D, [2011-08-17T19:04:42.020650 #42453] DEBUG -- : response-header: content-length => 635
+D, [2011-08-17T19:04:42.020684 #42453] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2011-08-17T19:04:42.020791 #42453] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:04:42.021064 #42453] DEBUG -- : Read 635 bytes (635 total)
+I, [2011-08-17T19:04:42.021437 #42453]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/authenticate?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+I, [2011-08-17T19:04:42.022363 #42453]  INFO -- : Net::HTTP::Get: /pin/authenticate?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:42.022417 #42453] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:04:42.022452 #42453] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:04:42.022484 #42453] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:04:42.022517 #42453] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:04:42.022561 #42453] DEBUG -- : request-header: referer => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:04:42.022596 #42453] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:04:42.022629 #42453] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:04:42.604107 #42453]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:04:42.604228 #42453] DEBUG -- : response-header: content-type => text/html
+D, [2011-08-17T19:04:42.604265 #42453] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:04:42.604300 #42453] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:04:42.604340 #42453] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:04:42 GMT
+D, [2011-08-17T19:04:42.604375 #42453] DEBUG -- : response-header: content-length => 8035
+D, [2011-08-17T19:04:42.604411 #42453] DEBUG -- : response-header: set-cookie => Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-0=2czCS1x2QTvYBU67kKQjZQ==; domain=.harvard.edu; path=/pin, Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-1=wfDkWPv3bNCjqhNdEXQd8ICXZ6DMIil4Nk83PWS7EHKRaW7YJ9ECBmMZcpFoa8Bikt5FrNOukKR1m2ygRANEY2u3cYncdq16nlf4P5ghKt9wArnyhnQRHbCzBoEs9uDaFXUofcGBh1OAjbA7+Pi2H+oPapp4vRdIPgksaULtKkhGVk3Ly/+WtIDN4aN++0Vk+tqb8lkj4U9hHMq2HJuSxl6U6YwrlFl2hdxcWLxwJNIGS/FrDQC26OXDJ0tkJMJ2Tya5N3GfjnadltTw2/CNXJ2ivR2cbP2ex7uhmHVXUln/c4BawGQEBPunET4HMgpL; domain=.harvard.edu; path=/pin, Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreX32PFyr7tZbK5bkeODNXvO3kKvvScKm333kWqEQ9Xct; domain=.harvard.edu; path=/pin, JSESSIONID=l1QpTMJKTp2xGb9QqyyHpx7TYvJnZgH70jp2FV2tLpbPqvHNyfJS!-2041248388; path=/
+D, [2011-08-17T19:04:42.604481 #42453] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2011-08-17T19:04:42.604591 #42453] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:04:42.605550 #42453] DEBUG -- : Read 4096 bytes (4096 total)
+D, [2011-08-17T19:04:42.705366 #42453] DEBUG -- : Read 3939 bytes (8035 total)
+D, [2011-08-17T19:04:42.706325 #42453] DEBUG -- : saved cookie: Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-0=2czCS1x2QTvYBU67kKQjZQ==
+D, [2011-08-17T19:04:42.706445 #42453] DEBUG -- : saved cookie: Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-1=wfDkWPv3bNCjqhNdEXQd8ICXZ6DMIil4Nk83PWS7EHKRaW7YJ9ECBmMZcpFoa8Bikt5FrNOukKR1m2ygRANEY2u3cYncdq16nlf4P5ghKt9wArnyhnQRHbCzBoEs9uDaFXUofcGBh1OAjbA7+Pi2H+oPapp4vRdIPgksaULtKkhGVk3Ly/+WtIDN4aN++0Vk+tqb8lkj4U9hHMq2HJuSxl6U6YwrlFl2hdxcWLxwJNIGS/FrDQC26OXDJ0tkJMJ2Tya5N3GfjnadltTw2/CNXJ2ivR2cbP2ex7uhmHVXUln/c4BawGQEBPunET4HMgpL
+D, [2011-08-17T19:04:42.706537 #42453] DEBUG -- : saved cookie: Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreX32PFyr7tZbK5bkeODNXvO3kKvvScKm333kWqEQ9Xct
+D, [2011-08-17T19:04:42.706619 #42453] DEBUG -- : saved cookie: JSESSIONID=l1QpTMJKTp2xGb9QqyyHpx7TYvJnZgH70jp2FV2tLpbPqvHNyfJS!-2041248388
+I, [2011-08-17T19:05:01.028076 #42548]  INFO -- : Net::HTTP::Get: /
+D, [2011-08-17T19:05:01.028178 #42548] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:05:01.028217 #42548] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:05:01.028250 #42548] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:05:01.028284 #42548] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:05:01.028319 #42548] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:05:01.028349 #42548] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:05:01.469177 #42548]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:05:01.469306 #42548] DEBUG -- : response-header: location => http://my.harvard.edu/welcome.html
+D, [2011-08-17T19:05:01.469346 #42548] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:05:01.469381 #42548] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:05:01.469415 #42548] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:05:01.469456 #42548] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:05:01 GMT
+D, [2011-08-17T19:05:01.469502 #42548] DEBUG -- : response-header: content-length => 191
+D, [2011-08-17T19:05:01.469541 #42548] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:05:01.469576 #42548] DEBUG -- : response-header: set-cookie => mhBack=0; path=/; domain=.my.harvard.edu; expires=Thu, 22-Aug-2030 09:44:01 GMT
+D, [2011-08-17T19:05:01.469611 #42548] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:05:01.469650 #42548] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:05:01.469760 #42548] DEBUG -- : Read 191 bytes (191 total)
+D, [2011-08-17T19:05:01.469874 #42548] DEBUG -- : gzip body
+D, [2011-08-17T19:05:01.470737 #42548] DEBUG -- : saved cookie: mhBack=0
+I, [2011-08-17T19:05:01.470849 #42548]  INFO -- : follow redirect to: http://my.harvard.edu/welcome.html
+I, [2011-08-17T19:05:01.471459 #42548]  INFO -- : Net::HTTP::Get: /welcome.html
+D, [2011-08-17T19:05:01.471515 #42548] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:05:01.471551 #42548] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:05:01.471591 #42548] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:05:01.471627 #42548] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:05:01.471660 #42548] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:05:01.471725 #42548] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:05:01.677975 #42548]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:05:01.678097 #42548] DEBUG -- : response-header: etag => "28a28c-54a-4aa3e2bd646c0"
+D, [2011-08-17T19:05:01.678139 #42548] DEBUG -- : response-header: last-modified => Thu, 11 Aug 2011 17:31:47 GMT
+D, [2011-08-17T19:05:01.678174 #42548] DEBUG -- : response-header: content-type => text/html; charset=UTF-8
+D, [2011-08-17T19:05:01.678209 #42548] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:05:01.678244 #42548] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:05:01.678279 #42548] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:05:01 GMT
+D, [2011-08-17T19:05:01.678313 #42548] DEBUG -- : response-header: content-length => 785
+D, [2011-08-17T19:05:01.678348 #42548] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:05:01.678394 #42548] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:05:01.678453 #42548] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:05:01.678510 #42548] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:05:01.678563 #42548] DEBUG -- : response-header: accept-ranges => bytes
+D, [2011-08-17T19:05:01.678665 #42548] DEBUG -- : Read 785 bytes (785 total)
+D, [2011-08-17T19:05:01.678783 #42548] DEBUG -- : gzip body
+I, [2011-08-17T19:05:01.681107 #42548]  INFO -- : Net::HTTP::Get: /myharvard
+D, [2011-08-17T19:05:01.681188 #42548] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:05:01.681225 #42548] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:05:01.681260 #42548] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:05:01.681294 #42548] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:05:01.681334 #42548] DEBUG -- : request-header: referer => http://my.harvard.edu/welcome.html
+D, [2011-08-17T19:05:01.681369 #42548] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:05:01.681403 #42548] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:05:01.780895 #42548]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:05:01.781056 #42548] DEBUG -- : response-header: location => http://my.harvard.edu/icb/icb.do?keyword=myharvard
+D, [2011-08-17T19:05:01.781100 #42548] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:05:01.781135 #42548] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:05:01.781168 #42548] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:05:01.781202 #42548] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:05:01 GMT
+D, [2011-08-17T19:05:01.781235 #42548] DEBUG -- : response-header: content-length => 202
+D, [2011-08-17T19:05:01.781269 #42548] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:05:01.781302 #42548] DEBUG -- : response-header: keep-alive => timeout=10, max=99
+D, [2011-08-17T19:05:01.781336 #42548] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:05:01.781433 #42548] DEBUG -- : Read 202 bytes (202 total)
+D, [2011-08-17T19:05:01.781566 #42548] DEBUG -- : gzip body
+I, [2011-08-17T19:05:01.781855 #42548]  INFO -- : follow redirect to: http://my.harvard.edu/icb/icb.do?keyword=myharvard
+I, [2011-08-17T19:05:01.782492 #42548]  INFO -- : Net::HTTP::Get: /icb/icb.do?keyword=myharvard
+D, [2011-08-17T19:05:01.782540 #42548] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:05:01.782575 #42548] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:05:01.782609 #42548] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:05:01.782643 #42548] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:05:01.782717 #42548] DEBUG -- : request-header: referer => http://my.harvard.edu/myharvard
+D, [2011-08-17T19:05:01.782753 #42548] DEBUG -- : request-header: host => my.harvard.edu
+D, [2011-08-17T19:05:01.782863 #42548] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:05:01.905092 #42548]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:05:01.905231 #42548] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2011-08-17T19:05:01.905273 #42548] DEBUG -- : response-header: location => https://login.icommons.harvard.edu/pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:05:01.905310 #42548] DEBUG -- : response-header: expires => Thu, 01 Jan 1970 00:00:00 GMT
+D, [2011-08-17T19:05:01.905344 #42548] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:05:01.905378 #42548] DEBUG -- : response-header: content-type => text/html;charset=utf-8
+D, [2011-08-17T19:05:01.905413 #42548] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:05:01 GMT
+D, [2011-08-17T19:05:01.905448 #42548] DEBUG -- : response-header: content-length => 311
+D, [2011-08-17T19:05:01.905482 #42548] DEBUG -- : response-header: content-encoding => gzip
+D, [2011-08-17T19:05:01.905518 #42548] DEBUG -- : response-header: set-cookie => JSESSIONID=NhLpTMJddGh0QYpynJ32CZjSvJsff2dPBpZmHsfW6MXm8HLJ66Dh!-990337522; path=/; HttpOnly, ICB_10.0=; expires=Thu, 01-Jan-1970 01:00:00 GMT; path=/
+D, [2011-08-17T19:05:01.905553 #42548] DEBUG -- : response-header: keep-alive => timeout=10, max=98
+D, [2011-08-17T19:05:01.905588 #42548] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2011-08-17T19:05:01.905622 #42548] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:05:01.905657 #42548] DEBUG -- : response-header: cache-control => no-cache
+D, [2011-08-17T19:05:01.905691 #42548] DEBUG -- : response-header: pragma => No-cache
+D, [2011-08-17T19:05:01.905804 #42548] DEBUG -- : Read 311 bytes (311 total)
+D, [2011-08-17T19:05:01.905926 #42548] DEBUG -- : gzip body
+D, [2011-08-17T19:05:01.906334 #42548] DEBUG -- : saved cookie: JSESSIONID=NhLpTMJddGh0QYpynJ32CZjSvJsff2dPBpZmHsfW6MXm8HLJ66Dh!-990337522
+D, [2011-08-17T19:05:01.906716 #42548] DEBUG -- : saved cookie: ICB_10.0=
+I, [2011-08-17T19:05:01.906786 #42548]  INFO -- : follow redirect to: https://login.icommons.harvard.edu/pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+I, [2011-08-17T19:05:01.908176 #42548]  INFO -- : Net::HTTP::Get: /pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:05:01.908243 #42548] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:05:01.908290 #42548] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:05:01.908334 #42548] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:05:01.908386 #42548] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:05:01.908442 #42548] DEBUG -- : request-header: referer => http://my.harvard.edu/icb/icb.do?keyword=myharvard
+D, [2011-08-17T19:05:01.908488 #42548] DEBUG -- : request-header: host => login.icommons.harvard.edu
+D, [2011-08-17T19:05:01.908533 #42548] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:05:02.368555 #42548]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:05:02.368705 #42548] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2011-08-17T19:05:02.368766 #42548] DEBUG -- : response-header: location => https://login.icommons.harvard.edu/pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:05:02.368857 #42548] DEBUG -- : response-header: content-type => text/plain; charset=UTF-8
+D, [2011-08-17T19:05:02.368914 #42548] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:05:02.368976 #42548] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:05:02 GMT
+D, [2011-08-17T19:05:02.369032 #42548] DEBUG -- : response-header: set-cookie => PinProxy_10.0=; expires=Thu, 01-Jan-1970 01:00:00 GMT; path=/
+D, [2011-08-17T19:05:02.369086 #42548] DEBUG -- : response-header: keep-alive => timeout=10, max=100
+D, [2011-08-17T19:05:02.369138 #42548] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:05:02.369189 #42548] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2011-08-17T19:05:02.369337 #42548] DEBUG -- : Read 745 bytes (745 total)
+D, [2011-08-17T19:05:02.370130 #42548] DEBUG -- : saved cookie: PinProxy_10.0=
+I, [2011-08-17T19:05:02.370269 #42548]  INFO -- : follow redirect to: https://login.icommons.harvard.edu/pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+I, [2011-08-17T19:05:02.371828 #42548]  INFO -- : Net::HTTP::Get: /pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:05:02.371906 #42548] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:05:02.371958 #42548] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:05:02.372010 #42548] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:05:02.372061 #42548] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:05:02.372132 #42548] DEBUG -- : request-header: referer => https://login.icommons.harvard.edu/pinproxy/login?__requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&authority=PINPROXY&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:05:02.372190 #42548] DEBUG -- : request-header: host => login.icommons.harvard.edu
+D, [2011-08-17T19:05:02.372249 #42548] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:05:02.481679 #42548]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:05:02.481823 #42548] DEBUG -- : response-header: x-powered-by => Servlet/2.5 JSP/2.1
+D, [2011-08-17T19:05:02.481892 #42548] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:05:02.481950 #42548] DEBUG -- : response-header: content-type => text/plain; charset=UTF-8
+D, [2011-08-17T19:05:02.482005 #42548] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:05:02.482059 #42548] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:05:02 GMT
+D, [2011-08-17T19:05:02.482114 #42548] DEBUG -- : response-header: set-cookie => PinProxy_10.0=; expires=Thu, 01-Jan-1970 01:00:00 GMT; path=/
+D, [2011-08-17T19:05:02.482177 #42548] DEBUG -- : response-header: keep-alive => timeout=10, max=99
+D, [2011-08-17T19:05:02.482232 #42548] DEBUG -- : response-header: isitesnode => fe3-a
+D, [2011-08-17T19:05:02.482287 #42548] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2011-08-17T19:05:02.482437 #42548] DEBUG -- : Read 749 bytes (749 total)
+D, [2011-08-17T19:05:02.595334 #42548] DEBUG -- : Read 376 bytes (1125 total)
+D, [2011-08-17T19:05:02.595974 #42548] DEBUG -- : saved cookie: PinProxy_10.0=
+I, [2011-08-17T19:05:02.596060 #42548]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+I, [2011-08-17T19:05:02.597002 #42548]  INFO -- : Net::HTTP::Get: /pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:05:02.597047 #42548] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:05:02.597081 #42548] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:05:02.597114 #42548] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:05:02.597147 #42548] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:05:02.597189 #42548] DEBUG -- : request-header: referer => https://login.icommons.harvard.edu/pinproxy/pinlogin?proxy_requested_url=http%3A%2F%2Fmy.harvard.edu%2Ficb%2Ficb.do%253Fkeyword%3Dmyharvard&_logout_callback_url=http%3A%2F%2Fmy.harvard.edu%3A80%2Ficb%2Flogoutcallback.do
+D, [2011-08-17T19:05:02.597223 #42548] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:05:02.597255 #42548] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:05:03.113359 #42548]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:05:03.113482 #42548] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/authenticate?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:05:03.113522 #42548] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:05:03.113558 #42548] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:05:03.113593 #42548] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:05:03.113627 #42548] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:05:03 GMT
+D, [2011-08-17T19:05:03.113661 #42548] DEBUG -- : response-header: content-length => 635
+D, [2011-08-17T19:05:03.113695 #42548] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2011-08-17T19:05:03.113788 #42548] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:05:03.114164 #42548] DEBUG -- : Read 635 bytes (635 total)
+I, [2011-08-17T19:05:03.114525 #42548]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/authenticate?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+I, [2011-08-17T19:05:03.115503 #42548]  INFO -- : Net::HTTP::Get: /pin/authenticate?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:05:03.115564 #42548] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:05:03.115632 #42548] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:05:03.115668 #42548] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:05:03.115703 #42548] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:05:03.115751 #42548] DEBUG -- : request-header: referer => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=HARVARD_PORTAL_NEW&authority=PIN&target=https%3A%2F%2Flogin.icommons.harvard.edu%2Fpinproxy%2Fpinlogin%3Fproxy_requested_url%3Dhttp%253A%252F%252Fmy.harvard.edu%252Ficb%252Ficb.do%25253Fkeyword%253Dmyharvard%26_logout_callback_url%3Dhttp%253A%252F%252Fmy.harvard.edu%253A80%252Ficb%252Flogoutcallback.do
+D, [2011-08-17T19:05:03.115789 #42548] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:05:03.115823 #42548] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:05:03.461869 #42548]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:05:03.461989 #42548] DEBUG -- : response-header: content-type => text/html
+D, [2011-08-17T19:05:03.462027 #42548] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:05:03.462062 #42548] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:05:03.462097 #42548] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:05:03 GMT
+D, [2011-08-17T19:05:03.462132 #42548] DEBUG -- : response-header: content-length => 8035
+D, [2011-08-17T19:05:03.462167 #42548] DEBUG -- : response-header: set-cookie => Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-0=2czCS1x2QTvYBU67kKQjZQ==; domain=.harvard.edu; path=/pin, Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-1=wfDkWPv3bNCjqhNdEXQd8ICXZ6DMIil4Nk83PWS7EHKRaW7YJ9ECBmMZcpFoa8Bikt5FrNOukKR1m2ygRANEY2u3cYncdq16nlf4P5ghKt9wArnyhnQRHbCzBoEs9uDaFXUofcGBh1OAjbA7+Pi2H+oPapp4vRdIPgksaULtKkhGVk3Ly/+WtIDN4aN++0Vk+tqb8lkj4U9hHMq2HJuSxl6U6YwrlFl2hdxcWLxwJNIGS/FrDQC26OXDJ0tkJMJ2Tya5N3GfjnadltTw2/CNXJ2ivR2cbP2ex7uhmHVXUln/c4BawGQEBPunET4HMgpL; domain=.harvard.edu; path=/pin, Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreYLDSwga4lo4f1gHrL2KSlzNvlHdzr04HRgyJB2fH1cx; domain=.harvard.edu; path=/pin, JSESSIONID=5QmnTMJfpJDy9J8LgTQKpyQY8qQ6Z0JB1XgzPpkvZ253lhlqNnFL!-2041248388; path=/
+D, [2011-08-17T19:05:03.462203 #42548] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2011-08-17T19:05:03.462375 #42548] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:05:03.462994 #42548] DEBUG -- : Read 4096 bytes (4096 total)
+D, [2011-08-17T19:05:03.597179 #42548] DEBUG -- : Read 3939 bytes (8035 total)
+D, [2011-08-17T19:05:03.598178 #42548] DEBUG -- : saved cookie: Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-0=2czCS1x2QTvYBU67kKQjZQ==
+D, [2011-08-17T19:05:03.598299 #42548] DEBUG -- : saved cookie: Harvard-University-Application-Parameter-HARVARD_PORTAL_NEW-1=wfDkWPv3bNCjqhNdEXQd8ICXZ6DMIil4Nk83PWS7EHKRaW7YJ9ECBmMZcpFoa8Bikt5FrNOukKR1m2ygRANEY2u3cYncdq16nlf4P5ghKt9wArnyhnQRHbCzBoEs9uDaFXUofcGBh1OAjbA7+Pi2H+oPapp4vRdIPgksaULtKkhGVk3Ly/+WtIDN4aN++0Vk+tqb8lkj4U9hHMq2HJuSxl6U6YwrlFl2hdxcWLxwJNIGS/FrDQC26OXDJ0tkJMJ2Tya5N3GfjnadltTw2/CNXJ2ivR2cbP2ex7uhmHVXUln/c4BawGQEBPunET4HMgpL
+D, [2011-08-17T19:05:03.598388 #42548] DEBUG -- : saved cookie: Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreYLDSwga4lo4f1gHrL2KSlzNvlHdzr04HRgyJB2fH1cx
+D, [2011-08-17T19:05:03.598465 #42548] DEBUG -- : saved cookie: JSESSIONID=5QmnTMJfpJDy9J8LgTQKpyQY8qQ6Z0JB1XgzPpkvZ253lhlqNnFL!-2041248388
+I, [2011-08-17T19:06:43.849241 #43010]  INFO -- : Net::HTTP::Get: /course_evaluation_reports/fas/list
+D, [2011-08-17T19:06:43.849326 #43010] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:06:43.849362 #43010] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:06:43.849394 #43010] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:06:43.849448 #43010] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:06:43.849481 #43010] DEBUG -- : request-header: host => webapps.fas.harvard.edu
+D, [2011-08-17T19:06:43.849511 #43010] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:06:44.609780 #43010]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:06:44.609929 #43010] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-17T19:06:44.609992 #43010] DEBUG -- : response-header: x-cocoon-version => 2.1.7
+D, [2011-08-17T19:06:44.610051 #43010] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:06:44 GMT
+D, [2011-08-17T19:06:44.610110 #43010] DEBUG -- : response-header: server => Apache-Coyote/1.1
+D, [2011-08-17T19:06:44.610167 #43010] DEBUG -- : response-header: content-length => 0
+D, [2011-08-17T19:06:44.610227 #43010] DEBUG -- : response-header: set-cookie => JSESSIONID=1E9DAC482F02D70E15FFC31ADBE76EA5; Path=/; Secure
+D, [2011-08-17T19:06:44.610381 #43010] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:06:44.610672 #43010] DEBUG -- : saved cookie: JSESSIONID=1E9DAC482F02D70E15FFC31ADBE76EA5
+I, [2011-08-17T19:06:44.610775 #43010]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/default.asp?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+I, [2011-08-17T19:06:44.611119 #43010]  INFO -- : Net::HTTP::Get: /pin/default.asp?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-17T19:06:44.611166 #43010] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:06:44.611202 #43010] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:06:44.611238 #43010] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:06:44.611273 #43010] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:06:44.611315 #43010] DEBUG -- : request-header: referer => https://webapps.fas.harvard.edu/course_evaluation_reports/fas/list
+D, [2011-08-17T19:06:44.611350 #43010] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:06:44.611385 #43010] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:06:45.505229 #43010]  INFO -- : status: Net::HTTPFound 1.1 302 Found
+D, [2011-08-17T19:06:45.505375 #43010] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-17T19:06:45.505427 #43010] DEBUG -- : response-header: content-type => text/html; charset=iso-8859-1
+D, [2011-08-17T19:06:45.505465 #43010] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:06:45.505499 #43010] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:06:45.505532 #43010] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:06:45 GMT
+D, [2011-08-17T19:06:45.505566 #43010] DEBUG -- : response-header: content-length => 416
+D, [2011-08-17T19:06:45.505599 #43010] DEBUG -- : response-header: keep-alive => timeout=15, max=100
+D, [2011-08-17T19:06:45.505711 #43010] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:06:45.505951 #43010] DEBUG -- : Read 416 bytes (416 total)
+I, [2011-08-17T19:06:45.506293 #43010]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+I, [2011-08-17T19:06:45.506641 #43010]  INFO -- : Net::HTTP::Get: /pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-17T19:06:45.506688 #43010] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:06:45.506756 #43010] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:06:45.506793 #43010] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:06:45.506827 #43010] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:06:45.506871 #43010] DEBUG -- : request-header: referer => https://www.pin1.harvard.edu/pin/default.asp?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-17T19:06:45.506913 #43010] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:06:45.507027 #43010] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:06:45.941267 #43010]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:06:45.941381 #43010] DEBUG -- : response-header: content-type => text/html
+D, [2011-08-17T19:06:45.941420 #43010] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:06:45.941455 #43010] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:06:45.941489 #43010] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:06:45 GMT
+D, [2011-08-17T19:06:45.941524 #43010] DEBUG -- : response-header: content-length => 6949
+D, [2011-08-17T19:06:45.941559 #43010] DEBUG -- : response-header: set-cookie => Harvard-University-Application-Parameter-FAS_CS_COURSE_EVAL_REPORTS-0=wF3MaZWUFueqHE1pjyYUhRRcUiWIbcrWfRO4gKaMkr3GRioXwEixRzylpLrQ4nB8o/lU/3N4r1/sicre3ZkNHA==; domain=.harvard.edu; path=/pin, Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreR9Xr+8PJ7FtQTOaaXMGvwqwIKpi/vpv/3ItKAZMwtPs; domain=.harvard.edu; path=/pin, JSESSIONID=SGDrTMJFrQ4mgH8WPHyLq9nnyZ1y46m3BgJhn38hWYClhvpMwLyn!-2041248388; path=/
+D, [2011-08-17T19:06:45.941595 #43010] DEBUG -- : response-header: keep-alive => timeout=15, max=99
+D, [2011-08-17T19:06:45.941686 #43010] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:06:45.942191 #43010] DEBUG -- : Read 4096 bytes (4096 total)
+D, [2011-08-17T19:06:45.942812 #43010] DEBUG -- : Read 2853 bytes (6949 total)
+D, [2011-08-17T19:06:45.943617 #43010] DEBUG -- : saved cookie: Harvard-University-Application-Parameter-FAS_CS_COURSE_EVAL_REPORTS-0=wF3MaZWUFueqHE1pjyYUhRRcUiWIbcrWfRO4gKaMkr3GRioXwEixRzylpLrQ4nB8o/lU/3N4r1/sicre3ZkNHA==
+D, [2011-08-17T19:06:45.943726 #43010] DEBUG -- : saved cookie: Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreR9Xr+8PJ7FtQTOaaXMGvwqwIKpi/vpv/3ItKAZMwtPs
+D, [2011-08-17T19:06:45.943804 #43010] DEBUG -- : saved cookie: JSESSIONID=SGDrTMJFrQ4mgH8WPHyLq9nnyZ1y46m3BgJhn38hWYClhvpMwLyn!-2041248388
+I, [2011-08-17T19:06:45.945622 #43010]  INFO -- : form encoding: ISO-8859-1
+D, [2011-08-17T19:06:45.945842 #43010] DEBUG -- : query: "__authen_application=FAS_CS_COURSE_EVAL_REPORTS&__authen_login_type=PIN&__authen_id=80697953&__authen_password=Hb5udd%2Byk"
+I, [2011-08-17T19:06:45.946484 #43010]  INFO -- : Net::HTTP::Post: /pin/submit-login
+D, [2011-08-17T19:06:45.946535 #43010] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:06:45.946569 #43010] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:06:45.946600 #43010] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2011-08-17T19:06:45.946632 #43010] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:06:45.946663 #43010] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:06:45.946694 #43010] DEBUG -- : request-header: content-length => 122
+D, [2011-08-17T19:06:45.946734 #43010] DEBUG -- : request-header: referer => https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS&original_request=%2Fcourse_evaluation_reports%2Ffas%2Flist%3F
+D, [2011-08-17T19:06:45.946767 #43010] DEBUG -- : request-header: cookie => JSESSIONID=SGDrTMJFrQ4mgH8WPHyLq9nnyZ1y46m3BgJhn38hWYClhvpMwLyn!-2041248388
+D, [2011-08-17T19:06:45.946830 #43010] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:06:45.946864 #43010] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:06:46.453356 #43010]  INFO -- : status: Net::HTTPFound 1.1 302 Moved Temporarily
+D, [2011-08-17T19:06:46.453541 #43010] DEBUG -- : response-header: location => https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS
+D, [2011-08-17T19:06:46.453612 #43010] DEBUG -- : response-header: content-type => text/html
+D, [2011-08-17T19:06:46.453671 #43010] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:06:46.453733 #43010] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:06:46.453799 #43010] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:06:45 GMT
+D, [2011-08-17T19:06:46.453855 #43010] DEBUG -- : response-header: set-cookie => Harvard-University-PIN-Message=zPTFeibGqTf16yUyMtlnzf9Jk8tCmGk07pa+xrbK3RbrEE73LJMOGbAUMM1B1eF4vBoXf3wFkacqfljAsgkM0B6hnzW/k4OLHzYKVxeoyEA=; domain=.harvard.edu; path=/pin
+D, [2011-08-17T19:06:46.453911 #43010] DEBUG -- : response-header: keep-alive => timeout=15, max=98
+D, [2011-08-17T19:06:46.453965 #43010] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2011-08-17T19:06:46.454462 #43010] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:06:46.454715 #43010] DEBUG -- : Read 381 bytes (381 total)
+D, [2011-08-17T19:06:46.455809 #43010] DEBUG -- : saved cookie: Harvard-University-PIN-Message=zPTFeibGqTf16yUyMtlnzf9Jk8tCmGk07pa+xrbK3RbrEE73LJMOGbAUMM1B1eF4vBoXf3wFkacqfljAsgkM0B6hnzW/k4OLHzYKVxeoyEA=
+I, [2011-08-17T19:06:46.455944 #43010]  INFO -- : follow redirect to: https://www.pin1.harvard.edu/pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS
+I, [2011-08-17T19:06:46.456485 #43010]  INFO -- : Net::HTTP::Get: /pin/authenticate?__authen_application=FAS_CS_COURSE_EVAL_REPORTS
+D, [2011-08-17T19:06:46.456550 #43010] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2011-08-17T19:06:46.456603 #43010] DEBUG -- : request-header: accept => */*
+D, [2011-08-17T19:06:46.456655 #43010] DEBUG -- : request-header: user-agent => Mechanize/2.0.1 Ruby/1.8.7p249 (http://github.com/tenderlove/mechanize/)
+D, [2011-08-17T19:06:46.456712 #43010] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2011-08-17T19:06:46.456777 #43010] DEBUG -- : request-header: referer => https://www.pin1.harvard.edu/pin/submit-login
+D, [2011-08-17T19:06:46.456836 #43010] DEBUG -- : request-header: cookie => JSESSIONID=SGDrTMJFrQ4mgH8WPHyLq9nnyZ1y46m3BgJhn38hWYClhvpMwLyn!-2041248388
+D, [2011-08-17T19:06:46.456890 #43010] DEBUG -- : request-header: host => www.pin1.harvard.edu
+D, [2011-08-17T19:06:46.456952 #43010] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+I, [2011-08-17T19:06:46.921841 #43010]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2011-08-17T19:06:46.921971 #43010] DEBUG -- : response-header: content-type => text/html
+D, [2011-08-17T19:06:46.922009 #43010] DEBUG -- : response-header: connection => Keep-Alive
+D, [2011-08-17T19:06:46.922043 #43010] DEBUG -- : response-header: server => Apache
+D, [2011-08-17T19:06:46.922078 #43010] DEBUG -- : response-header: date => Wed, 17 Aug 2011 23:06:46 GMT
+D, [2011-08-17T19:06:46.922112 #43010] DEBUG -- : response-header: content-length => 6949
+D, [2011-08-17T19:06:46.922146 #43010] DEBUG -- : response-header: set-cookie => Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreYb7ke9sP1uEppam1QZelNYghd40o0JwTfWFgA5vTWjR; domain=.harvard.edu; path=/pin
+D, [2011-08-17T19:06:46.922224 #43010] DEBUG -- : response-header: keep-alive => timeout=15, max=97
+D, [2011-08-17T19:06:46.922326 #43010] DEBUG -- : Read 0 bytes (0 total)
+D, [2011-08-17T19:06:46.923621 #43010] DEBUG -- : Read 4096 bytes (4096 total)
+D, [2011-08-17T19:06:46.925286 #43010] DEBUG -- : Read 2853 bytes (6949 total)
+D, [2011-08-17T19:06:46.926377 #43010] DEBUG -- : saved cookie: Harvard-University-PIN-State=aWdjUC5crhQPbQYTW0FreYb7ke9sP1uEppam1QZelNYghd40o0JwTfWFgA5vTWjR

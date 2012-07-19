@@ -1,0 +1,4 @@
+
+class Sinatra::Application
+  
+end
