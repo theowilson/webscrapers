@@ -71,19 +71,3 @@ CSV::Writer.generate(outfile) do |csv|
     end
   end
 end 
-      
-      
-      
-      
-    
-        
-        
-            #     
-            # @selenium.wait_for_page_to_load "30000"
-            # @selenium.select "_ctl0__ctl0_ContentPlaceholder_ContentHeaderSingleContainer_ContentHeaderTopPanel_ComparisonHeader_reportDate_ddlReportDate", "label=Aug - 2009"
-            # @selenium.click "//option[@value='31/08/2009']"
-            # @selenium.wait_for_page_to_load "30000"
-            # @selenium.select "_ctl0__ctl0_ContentPlaceholder_ContentHeaderSingleContainer_ContentHeaderTopPanel_ComparisonHeader_reportDate_ddlReportDate", "label=Current"
-            # @selenium.click "//option[@value='28/12/8000']"
-            # @selenium.wait_for_page_to_load "30000"
-            #
